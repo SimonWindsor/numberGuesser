@@ -4,7 +4,7 @@ let currentRoundNumber = 1;
 
 // Write your code below:
 function generateTarget() {
-  return Math.floor(Math.random() * 9);
+  return Math.floor(Math.random() * 10);
 }
 
 function compareGuesses(humanGuess, computerGuess, target) {
